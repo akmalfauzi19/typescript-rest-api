@@ -2,7 +2,6 @@ import supertest from "supertest";
 import { web } from "../src/application/web";
 import { logger } from "../src/application/logging";
 import { UserTest } from "./test-util";
-import { response } from "express";
 import bcrypt from 'bcrypt'
 
 describe('POST /api/users', () => {
